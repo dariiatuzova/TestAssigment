@@ -1,0 +1,18 @@
+{
+  "name": "codeceptjs",
+  "scripts": {
+    "codeceptjs:single": "codeceptjs run --grep @single --steps --debug",
+    "codeceptjs:e2e": "HEADLESS=false codeceptjs run"
+  },
+  "author": "Dariia T",
+  "license": "MIT",
+  "devDependencies": {
+    "@codeceptjs/configure": "^0.10.0",
+    "@codeceptjs/allure-legacy": "^1.0.2",
+    "allure-commandline": "^2.21.0",
+    "codeceptjs": "^3.4.1",
+    "codeceptjs-assert": "^0.0.5",
+    "playwright": "^1.32.1",
+    "moment": "^2.29.4"
+  }
+}
